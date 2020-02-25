@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "sweetalert2": "^9.6.0",
+    "vue": "^2.5.17",
+    "vue-bootstrap-datetimepicker": "^5.0.1",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.1.2",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
