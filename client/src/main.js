@@ -29,15 +29,15 @@ Vue.filter("postFormat", function(value) {
   }
 });
 
-// async function init() {
-//   let user = await AuthService.Authenticate();
-//   if (user) {
-//     store.commit("setUser", user);
-//   } else {
-//     router.push({ name: "login" });
-//   }
-// }
-// init();
+async function init() {
+  let user = await AuthService.Authenticate();
+  if (user) {
+    store.commit("setUser", user);
+  } else {
+    router.push({ name: "login" });
+  }
+}
+init();
 
 new Vue({
   router,
